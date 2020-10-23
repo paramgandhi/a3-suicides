@@ -1,0 +1,275 @@
+[meta title:"Mydll" description:"Short description of your project" /]
+
+[Header
+  fullWidth:true
+  title:"Mydll"
+  subtitle:"Welcome to Idyll. Open index.idyll to start writing"
+  author:"Your Name Here"
+  authorLink:"https://idyll-lang.org"
+  date:`(new Date()).toDateString()`
+  background:"#222222"
+  color:"#ffffff"
+   /]
+
+
+## Introduction
+
+This is an Idyll post. It is generated via
+the file `index.idyll`. To compile this post using
+idyll, run the command `idyll` inside of this directory.
+
+
+Idyll posts are designed to support interaction and
+data-driven graphics.
+
+
+// [Scroller currentStep:scrollerIndex]
+//   [Step]## How well do you know your community?[/Step]
+//   [Step]## Spoiler: Not very well.   [/Step]
+//   [Step]## I am going to talk about suicide.[/Step]
+//   [Step]## If that made you a little uncomfortable, you’re not alone. Suicide is a notoriously complex issue as it is influenced by a number of societal issues. Everything from the pandemic to paper towel sales has been shown to influence the rate at which people kill themselves, which is very bizarre when you think about it. The purpose of this story is to start the talk about suicide awareness . The people you think have the best life might secretly be wishing.[/Step]
+//   [Step]## In this visualization we will follow the life of Jacob, who is fresh out of undergraduate college and has been working really hard to get a job of his dreams in San Francisco. The more hours he puts in, the more closer the goal looks. However, on one day he reached late to work and met the wrath of his boss who then proceeded to let Jacob go. Devastated he had no one to turn to with bills piling. Thinking all of this is too much to handle, he wondered what the point of living is if she was going to end up homeless in a week or two. Everything felt pointless.[/Step]
+//   [Step]## Now, this story might feel like too much of an exaggeration and none of the above symptoms on their own mean that the person is suicidal, however, they need to be taken into consideration and be seen by a professional if need be. Now let’s see what data on suicide rates tell us:[/Step]
+//   [Step]## Suicides rates per country per year. (Jacob lives in US) [/Step]
+//   [Step]## Suicide rates by age. (Jacob is 21 years old) [/Step]
+//   [Step]## Suicide rates by gender. (Jacob is male)[/Step]
+// [/Scroller]
+
+
+[meta title:"A3" description:"Short description of your project" /]
+
+[Header
+  fullWidth:true
+  title:"How well do you take care of each other?"
+  subtitle:"Apparently not too well."
+  author:"Desmond Fung, Hangyu Kang, Param Gandhi"
+  authorLink:"https://github.com/hkang1091/Assignment3"
+  date:`(new Date()).toDateString()`
+  background:"#0288D1"
+  color:"#03DAC5"
+   /]
+
+[data name:"suiciderate" source:"Suicide only data.csv"/]
+[data name:"suicideavg" source:"average suicide rate.csv"/]
+[data name:"top10countries" source:"top10countries.csv"/]
+[data name:"agesuicide" source:"average age suicide rate.csv"/]
+[data name:"gender" source:"gendersuicide.csv"/]
+
+[div style: `{fontSize: '3vh'}`] 
+### We are going to talk about suicide. 
+[/div]
+
+If that sentence made you a little uncomfortable, you are not alone. Talking about suicide and mental health is not only important, but it is the need of the hour.
+
+[aside]
+This might be a difficult topic for many, and if it is for you too, [here are a list of resources to help you.](https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines)
+[/aside]
+
+Suicide is a notoriously complex issue because it is influenced by a number of societal issues. Everything from the pandemic to paper towel sales has been shown to influence the rate at which people kill themselves, which is very bizarre when you think about it. 
+Hence, we attempt to paint a picture of severity of the issue and spread awareness on how important it is to talk about it.
+
+[aside]
+  ###800,000
+  the amount of people that die by committing suicide each year or the population of `Guyana` or the number of people who have died by contracting the Covid-19 virus so far.
+[/aside]
+
+[div style: `{backgroundColor: 'beige', marginBottom: '5rem',borderStyle: 'round', padding: '5rem', lineHeight: '2.6'}`] 
+Let's follow the Jacob, a who is fresh out of undergraduate college and has been working really hard to get a job of his dreams in San Francisco. 
+The more hours he puts in, the more closer the goal looks. However, on one day he reached late to work and met the wrath of his boss who then proceeded to let Jacob go. 
+Devastated he had no one to turn to with bills piling. Thinking all of this is too much to handle, he wondered what the point of living is if she was going to end up homeless in a week or two. Everything felt pointless. 
+[/div]
+
+
+Choose your country:
+[var name:"selectVal" value:"World" /] [Select value:selectVal options:`["Afghanistan","Albania","Algeria","Angola","Antigua and Barbuda","Argentina","Armenia","Australia","Austria","Azerbaijan","Bahamas","Bahrain","Bangladesh","Barbados","Belarus","Belgium","Belize","Benin","Bhutan","Bolivia","Botswana","Brazil","Brunei","Bulgaria","Burkina Faso","Burundi","Cambodia", "Cameroon","Canada","Central African Republic","Central Asia", "Chad", "Chile","China","Colombia","Comoros","Congo","Costa Rica","Cote d'Ivoire","Croatia","Cuba","Cyprus","Czech Republic","Democratic Republic of Congo", "Denmark", "Djibouti", "Dominica", "Dominican Republic", "East Asia", "Eastern Europe", "Ecuador", "Egypt", "El Salvador", "Equatorial Guinea", "Eritrea","Estonia", "Ethiopia","Fiji","Finland","France","Gabon", "Gambia", "Georgia", "Germany","Ghana","Greece", "Guatemala","Guinea", "Guinea-Bissau","Guyana","Haiti","Honduras", "Hungary","Iceland","India", "Indonesia","Iran","Iraq","Ireland","Israel","Italy","Jamaica", "Japan", "Jordan", "Kazakhstan", "Kenya", "Kuwait", "Kyrgyzstan","Laos","Latvia","Lebanon", "Lesotho", "Liberia", "Libya", "Lithuania","Luxembourg","Macedonia", "Madagascar","Malawi", "Malaysia", "Maldives", "Mali",  "Malta","Mauritania","Mexico","Moldova","Montenegro","Morocco","Mozambique","Myanmar","Namibia","Nepal", "Netherlands","New Zealand","Nicaragua","Niger","Nigeria","North America","North Korea","Norway","Pakistan", "Palestine", "Panama","Papua New Guinea","Paraguay","Peru","Philippines","Poland","Portugal","Qatar","Romania","Russia","Rwanda","Saint Lucia","Saudi Arabia","Senegal","Serbia","Sierra Leone", "Singapore", "Slovakia", "Slovenia", "Solomon Islands", "Somalia","South Africa", "South Asia","South Korea", "South Sudan","Southeast Asia","Spain", "Sri Lanka","Sub-Saharan Africa", "Sudan",  "Suriname", "Swaziland","Sweden","Switzerland", "Syria", "Taiwan", "Tajikistan","Tanzania", "Thailand","Togo", "Trinidad and Tobago", "Tunisia","Turkey","Turkmenistan", "Uganda","Ukraine", "United Arab Emirates","United Kingdom","United States" ,"Uruguay" , "Uzbekistan" ,"Vanuatu", "Venezuela" ,"Vietnam","Western Europe","World","Yemen" ,"Zambia","Zimbabwe"]`  /]
+[derived name:"bycountries" value:`suiciderate.filter(c => c.Country == selectVal)`/]
+[IdyllVegaLite
+  data:bycountries
+  spec:`{
+    width:500,
+    height:500,
+    mark: "line",
+    encoding: {
+      x: {field:"Year", type:"quantitative", axis: {title: "Year"},scale: { domain: [1990,2017] }},
+      y: {field:"suicide rate", type:"quantitative", axis: {title: "Number of death by suicide"}}
+    }
+  }`/]
+
+[br/]
+
+# *Body*
+###Top Ten Countries
+Annually, top 10 countries that show hight rate of suicide has been changed. 
+[var name:"yea" value:1990/]
+[br/]
+Select the year:
+[br/]
+1990 [Range value:yea min:1990 max:2017 by:1/] 2017
+[br/]
+[Display value:`parseInt(yea)`/]
+[br/]
+[derived name:"topcountries" value:`top10countries.filter(c => c.Year == yea)`/]
+[IdyllVegaLite
+  data:topcountries
+  spec:`{
+    width:500,
+    height:500,
+    mark: "bar",
+    encoding: {
+      x: {field:"Countries", type:"nominal", axis: {title: "Annual Top 10 Countries"}},
+      y: {field:"sr", type:"quantitative", axis: {title: "Suicide rate per 100,000"}, scale:{domain:[0, 15]}}
+    }
+  }`/]
+
+[br/]
+However, some of the countries had kept showing the high rate of suicide.
+[br/]
+Here are top 10 countries that show high average suicide rate during 1990~2017.
+*Click the button and check which countries belong to the 10.*
+
+[br/]
+[var name:"started" value:false/]
+
+[Conditional if: `!started`]
+[button onClick:`started=true`]Click to see the top 10 countries and their rates![/button]
+[/Conditional]
+
+[Conditional if: `started`]
+  [derived name:"avgtopcountries" value:`suicideavg.filter(c => c.rate > 3.15)`/]
+  [IdyllVegaLite
+    data:avgtopcountries
+    spec:`{
+      width:500,
+      height:500,
+      mark: "bar",
+      encoding: {
+       x: {field:"countries", type:"nominal", axis: {title: "Average Top 10 Countries"}},
+       y: {field:"rate", type:"quantitative", axis: {title: "Suicide rate per 100,000"}, scale:{domain:[0, 15]}}
+     }
+    }`/]
+[br/]
+
+From the result, we find `Greenland` shows the highest suicide rate, and `Guam`, `Guyana`, `Kazakhstan`, `Lithuania`,`Northern Mariana Islands`,`Qatar`,`South Korea`,`Sri Lanka` and `Suriname` belong to the top 10 countries
+
+[br/]
+###Would Age Matter?
+Suicide is all about human beings. For this reason, demogrpahic approach is the basic but necessary process to get a good point of view. First of all, we explore our data with subject's age.
+You can select a country you would like to investigate in. If you want, compare it with the summary of the data(Boxplot). 
+[br/]
+[data name:"agesuicide" source:"average age suicide rate.csv"/]
+Choose your country:
+[var name:"selectcountr" value:"World" /] [Select value:selectcountr options:`["Afghanistan","Albania","Algeria","Angola","Antigua and Barbuda","Argentina","Armenia","Australia","Austria","Azerbaijan","Bahamas","Bahrain","Bangladesh","Barbados","Belarus","Belgium","Belize","Benin","Bhutan","Bolivia","Botswana","Brazil","Brunei","Bulgaria","Burkina Faso","Burundi","Cambodia", "Cameroon","Canada","Central African Republic","Central Asia", "Chad", "Chile","China","Colombia","Comoros","Congo","Costa Rica","Cote d'Ivoire","Croatia","Cuba","Cyprus","Czech Republic","Democratic Republic of Congo", "Denmark", "Djibouti", "Dominica", "Dominican Republic", "East Asia", "Eastern Europe", "Ecuador", "Egypt", "El Salvador", "Equatorial Guinea", "Eritrea","Estonia", "Ethiopia","Fiji","Finland","France","Gabon", "Gambia", "Georgia", "Germany","Ghana","Greece", "Guatemala","Guinea", "Guinea-Bissau","Guyana","Haiti","Honduras", "Hungary","Iceland","India", "Indonesia","Iran","Iraq","Ireland","Israel","Italy","Jamaica", "Japan", "Jordan", "Kazakhstan", "Kenya", "Kuwait", "Kyrgyzstan","Laos","Latvia","Lebanon", "Lesotho", "Liberia", "Libya", "Lithuania","Luxembourg","Macedonia", "Madagascar","Malawi", "Malaysia", "Maldives", "Mali",  "Malta","Mauritania","Mexico","Moldova","Montenegro","Morocco","Mozambique","Myanmar","Namibia","Nepal", "Netherlands","New Zealand","Nicaragua","Niger","Nigeria","North America","North Korea","Norway","Pakistan", "Palestine", "Panama","Papua New Guinea","Paraguay","Peru","Philippines","Poland","Portugal","Qatar","Romania","Russia","Rwanda","Saint Lucia","Saudi Arabia","Senegal","Serbia","Sierra Leone", "Singapore", "Slovakia", "Slovenia", "Solomon Islands", "Somalia","South Africa", "South Asia","South Korea", "South Sudan","Southeast Asia","Spain", "Sri Lanka","Sub-Saharan Africa", "Sudan",  "Suriname", "Swaziland","Sweden","Switzerland", "Syria", "Taiwan", "Tajikistan","Tanzania", "Thailand","Togo", "Trinidad and Tobago", "Tunisia","Turkey","Turkmenistan", "Uganda","Ukraine", "United Arab Emirates","United Kingdom","United States" ,"Uruguay" , "Uzbekistan" ,"Vanuatu", "Venezuela" ,"Vietnam","Western Europe","World","Yemen" ,"Zambia","Zimbabwe"]`  /]
+[derived name:"age" value:`agesuicide.filter(c => c.countries == selectcountr)`/]
+[br/]
+[var name:"radioVal" value:"Suicide rate per 100,000" /]
+[Radio value:radioVal options:`["Suicide rate per 100,000", "Proportion"]`  /]
+[br/]
+
+[Conditional if: `radioVal=="Suicide rate per 100,000"`]
+[IdyllVegaLite
+  data:age
+  spec:`{
+    width:300,
+    height:300,
+    mark: "bar",
+    encoding: {
+      x: {field:"agegroup", type:"nominal", axis: {title: "Age Group"}},
+      y: {field:"rate", type:"quantitative", axis: {title: "Suicide rate per 100,000"}}
+    }
+  }`/]
+[br/]
+[/Conditional]
+
+[Conditional if: `radioVal=="Proportion"`]
+[IdyllVegaLite
+  data:age
+  spec:`{
+    width:300,
+    height:300,
+    mark: "arc",
+    encoding: {
+      theta: {field:"prop", type:"quantitative"},
+      color: {field:"agegroup", type:"nominal"}
+    }
+  }`/]
+[/Conditional]
+
+[var name:"myVar" value:false /]
+[Boolean value:myVar /]
+*View the summary of each agegroup(Boxplot)*
+
+[Conditional if: `myVar`]
+[IdyllVegaLite
+  data:agesuicide
+  spec:`{
+    width:300,
+    height:300,
+    mark: "boxplot",
+    encoding: {
+      x: {field:"agegroup", type:"nominal", axis: {title: "Age Group"}},
+      y: {field:"rate", type:"quantitative", axis: {title: "Suicide rate per 100,000"}}
+    }
+  }`/]
+[/Conditional]
+
+[br/]
+From the graphs, we noticed the people who is older than 70 tend to commit suicide more through out whole nations. On the other hand, the age group 5~14 is the group that shows the least suicide rate.
+However, the result can be differed by a country and a region.
+[br/]
+
+###Would Gender Matter?
+The next feature of demogrpahic approach is gender.
+[br/]
+
+Can you guess which gender commit suicide more:
+[br/]
+Male or Female?
+[var name:"textVal" value:"" /]
+[TextInput value:textVal /]
+[br/]
+
+[Conditional if: `textVal=="Male"||textVal=="male"`]
+[br/]
+*Correct!*
+[br/]
+[br/]
+[br/]
+[IdyllVegaLite
+  data:gender
+  spec:`{
+    width:300,
+    height:300,
+    mark: "boxplot",
+    encoding: {
+      x: {field:"gender", type:"nominal", axis: {title: "Gender"}},
+      y: {field:"rate", type:"quantitative", axis: {title: "Suicide rate per 100,000"}}
+    }
+  }`/]
+[br/]
+You can check it out by country or region.
+[br/]
+Choose your country:
+[var name:"selectc" value:"World" /] [Select value:selectc options:`["Afghanistan","Albania","Algeria","Angola","Antigua and Barbuda","Argentina","Armenia","Australia","Austria","Azerbaijan","Bahamas","Bahrain","Bangladesh","Barbados","Belarus","Belgium","Belize","Benin","Bhutan","Bolivia","Botswana","Brazil","Brunei","Bulgaria","Burkina Faso","Burundi","Cambodia", "Cameroon","Canada","Central African Republic","Central Asia", "Chad", "Chile","China","Colombia","Comoros","Congo","Costa Rica","Cote d'Ivoire","Croatia","Cuba","Cyprus","Czech Republic","Democratic Republic of Congo", "Denmark", "Djibouti", "Dominica", "Dominican Republic", "East Asia", "Eastern Europe", "Ecuador", "Egypt", "El Salvador", "Equatorial Guinea", "Eritrea","Estonia", "Ethiopia","Fiji","Finland","France","Gabon", "Gambia", "Georgia", "Germany","Ghana","Greece", "Guatemala","Guinea", "Guinea-Bissau","Guyana","Haiti","Honduras", "Hungary","Iceland","India", "Indonesia","Iran","Iraq","Ireland","Israel","Italy","Jamaica", "Japan", "Jordan", "Kazakhstan", "Kenya", "Kuwait", "Kyrgyzstan","Laos","Latvia","Lebanon", "Lesotho", "Liberia", "Libya", "Lithuania","Luxembourg","Macedonia", "Madagascar","Malawi", "Malaysia", "Maldives", "Mali",  "Malta","Mauritania","Mexico","Moldova","Montenegro","Morocco","Mozambique","Myanmar","Namibia","Nepal", "Netherlands","New Zealand","Nicaragua","Niger","Nigeria","North America","North Korea","Norway","Pakistan", "Palestine", "Panama","Papua New Guinea","Paraguay","Peru","Philippines","Poland","Portugal","Qatar","Romania","Russia","Rwanda","Saint Lucia","Saudi Arabia","Senegal","Serbia","Sierra Leone", "Singapore", "Slovakia", "Slovenia", "Solomon Islands", "Somalia","South Africa", "South Asia","South Korea", "South Sudan","Southeast Asia","Spain", "Sri Lanka","Sub-Saharan Africa", "Sudan",  "Suriname", "Swaziland","Sweden","Switzerland", "Syria", "Taiwan", "Tajikistan","Tanzania", "Thailand","Togo", "Trinidad and Tobago", "Tunisia","Turkey","Turkmenistan", "Uganda","Ukraine", "United Arab Emirates","United Kingdom","United States" ,"Uruguay" , "Uzbekistan" ,"Vanuatu", "Venezuela" ,"Vietnam","Western Europe","World","Yemen" ,"Zambia","Zimbabwe"]`  /]
+[derived name:"gend" value:`gender.filter(c => c.countries == selectc)`/]
+[IdyllVegaLite
+  data:gend
+  spec:`{
+    width:300,
+    height:300,
+    mark: "bar",
+    encoding: {
+      x: {field:"gender", type:"nominal", axis: {title: "Gender"}},
+      y: {field:"rate", type:"quantitative", axis: {title: "Suicide rate per 100,000"}}
+    }
+  }`/]
+[br/]
+From the boxplot and the bargraph, we can easily figured out males commit suicide more than females do.
+[/Conditional]
+
+[Conditional if: `textVal=="Female"||textVal=="female"`]
+[br/]
+*Try Again!*
+[br/]
+[/Conditional]
+
+[/Conditional]

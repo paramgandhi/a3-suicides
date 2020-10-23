@@ -1,0 +1,443 @@
+"","countries","gender","rate"
+"1","Afghanistan","Male",15.3657142857143
+"2","Afghanistan","Female",5.19821428571429
+"3","Africa","Male",15.3382142857143
+"4","Africa","Female",6.28857142857143
+"5","Albania","Male",6.895
+"6","Albania","Female",3.035
+"7","Algeria","Male",6.85535714285714
+"8","Algeria","Female",2.76178571428571
+"9","American Samoa","Male",9.95321428571429
+"10","American Samoa","Female",3.29928571428571
+"11","Andorra","Male",14.7982142857143
+"12","Andorra","Female",3.32214285714286
+"13","Angola","Male",23.8392857142857
+"14","Angola","Female",6.02571428571429
+"15","Antigua and Barbuda","Male",4.62035714285714
+"16","Antigua and Barbuda","Female",0.917142857142857
+"17","Argentina","Male",18.9775
+"18","Argentina","Female",4.43071428571429
+"19","Armenia","Male",9.91285714285714
+"20","Armenia","Female",2.50357142857143
+"21","Asia","Male",15.5735714285714
+"22","Asia","Female",11.845
+"23","Australasia","Male",18.7157142857143
+"24","Australasia","Female",5.19571428571429
+"25","Australia","Male",18.4628571428571
+"26","Australia","Female",5.05428571428571
+"27","Austria","Male",24.0942857142857
+"28","Austria","Female",7.04464285714286
+"29","Azerbaijan","Male",6.445
+"30","Azerbaijan","Female",1.59107142857143
+"31","Bahamas","Male",5.4975
+"32","Bahamas","Female",1.09571428571429
+"33","Bahrain","Male",8.285
+"34","Bahrain","Female",2.66178571428571
+"35","Bangladesh","Male",7.95357142857143
+"36","Bangladesh","Female",7.83214285714286
+"37","Barbados","Male",7.75821428571429
+"38","Barbados","Female",1.65285714285714
+"39","Belarus","Male",52.2764285714286
+"40","Belarus","Female",8.635
+"41","Belgium","Male",25.6371428571429
+"42","Belgium","Female",9.06178571428571
+"43","Belize","Male",13.1717857142857
+"44","Belize","Female",2.37107142857143
+"45","Benin","Male",17.8385714285714
+"46","Benin","Female",6.22
+"47","Bermuda","Male",7.18821428571429
+"48","Bermuda","Female",1.58821428571429
+"49","Bhutan","Male",9.09928571428572
+"50","Bhutan","Female",4.4475
+"51","Bolivia","Male",9.945
+"52","Bolivia","Female",5.30857142857143
+"53","Bosnia and Herzegovina","Male",13.7132142857143
+"54","Bosnia and Herzegovina","Female",3.21785714285714
+"55","Botswana","Male",22.2339285714286
+"56","Botswana","Female",4.54678571428571
+"57","Brazil","Male",10.445
+"58","Brazil","Female",2.58142857142857
+"59","Brunei","Male",7.29892857142857
+"60","Brunei","Female",2.36464285714286
+"61","Bulgaria","Male",20.5725
+"62","Bulgaria","Female",6.15357142857143
+"63","Burkina Faso","Male",20.7510714285714
+"64","Burkina Faso","Female",6.46535714285714
+"65","Burundi","Male",24.5867857142857
+"66","Burundi","Female",9.27571428571428
+"67","Cambodia","Male",8.1175
+"68","Cambodia","Female",3.32285714285714
+"69","Cameroon","Male",21.5903571428571
+"70","Cameroon","Female",9.14607142857143
+"71","Canada","Male",18.7
+"72","Canada","Female",5.59107142857143
+"73","Cape Verde","Male",28.0842857142857
+"74","Cape Verde","Female",5.57857142857143
+"75","Central African Republic","Male",28.2875
+"76","Central African Republic","Female",7.69392857142857
+"77","Central Asia","Male",22.5371428571429
+"78","Central Asia","Female",5.47678571428571
+"79","Central Europe","Male",24.3967857142857
+"80","Central Europe","Female",5.35535714285714
+"81","Central Sub-Saharan Africa","Male",21.1853571428571
+"82","Central Sub-Saharan Africa","Female",5.51285714285714
+"83","Chad","Male",13.9892857142857
+"84","Chad","Female",7.75607142857143
+"85","Chile","Male",23.7657142857143
+"86","Chile","Female",4.34321428571429
+"87","China","Male",13.7828571428571
+"88","China","Female",12.7067857142857
+"89","Colombia","Male",9.98892857142857
+"90","Colombia","Female",2.20107142857143
+"91","Comoros","Male",14.0067857142857
+"92","Comoros","Female",4.64607142857143
+"93","Congo","Male",23.3632142857143
+"94","Congo","Female",9.18035714285714
+"95","Costa Rica","Male",12.6889285714286
+"96","Costa Rica","Female",1.97785714285714
+"97","Cote d'Ivoire","Male",23.3946428571429
+"98","Cote d'Ivoire","Female",5.97678571428571
+"99","Croatia","Male",25.8392857142857
+"100","Croatia","Female",7.23857142857143
+"101","Cuba","Male",20.3603571428571
+"102","Cuba","Female",8.58464285714286
+"103","Cyprus","Male",7.43357142857143
+"104","Cyprus","Female",2.13035714285714
+"105","Czech Republic","Male",23.1389285714286
+"106","Czech Republic","Female",5.4475
+"107","Democratic Republic of Congo","Male",19.7717857142857
+"108","Democratic Republic of Congo","Female",4.97785714285714
+"109","Denmark","Male",19.5914285714286
+"110","Denmark","Female",7.54857142857143
+"111","Djibouti","Male",13.2328571428571
+"112","Djibouti","Female",4.95964285714286
+"113","Dominica","Male",7.32285714285714
+"114","Dominica","Female",1.47678571428571
+"115","Dominican Republic","Male",11.9182142857143
+"116","Dominican Republic","Female",2.78571428571429
+"117","East Asia & Pacific","Male",14.3782142857143
+"118","East Asia & Pacific","Female",10.1782142857143
+"119","Eastern Europe","Male",59.6728571428571
+"120","Eastern Europe","Female",10.2128571428571
+"121","Eastern Sub-Saharan Africa","Male",19.6896428571429
+"122","Eastern Sub-Saharan Africa","Female",7.6075
+"123","Ecuador","Male",12.5296428571429
+"124","Ecuador","Female",4.62107142857143
+"125","Egypt","Male",7.5575
+"126","Egypt","Female",2.9575
+"127","El Salvador","Male",16.9935714285714
+"128","El Salvador","Female",4.95142857142857
+"129","Equatorial Guinea","Male",20.1735714285714
+"130","Equatorial Guinea","Female",5.82464285714286
+"131","Eritrea","Male",33.5939285714286
+"132","Eritrea","Female",8.65071428571428
+"133","Estonia","Male",42.48
+"134","Estonia","Female",7.81107142857143
+"135","Ethiopia","Male",19.2732142857143
+"136","Ethiopia","Female",8.99928571428571
+"137","Europe","Male",27.8507142857143
+"138","Europe","Female",6.30642857142857
+"139","Europe & Central Asia","Male",27.8542857142857
+"140","Europe & Central Asia","Female",6.37285714285714
+"141","Fiji","Male",13.6182142857143
+"142","Fiji","Female",6.77821428571429
+"143","Finland","Male",30.2039285714286
+"144","Finland","Female",8.4675
+"145","France","Male",26.5142857142857
+"146","France","Female",8.25107142857143
+"147","Gabon","Male",22.4035714285714
+"148","Gabon","Female",5.47678571428571
+"149","Gambia","Male",12.8207142857143
+"150","Gambia","Female",6.17428571428571
+"151","Georgia","Male",10.035
+"152","Georgia","Female",2.01357142857143
+"153","Germany","Male",17.9389285714286
+"154","Germany","Female",5.57
+"155","Ghana","Male",16.7271428571429
+"156","Ghana","Female",2.32607142857143
+"157","Greece","Male",5.41
+"158","Greece","Female",1.25428571428571
+"159","Greenland","Male",104.885
+"160","Greenland","Female",40.2914285714286
+"161","Grenada","Male",8.66892857142857
+"162","Grenada","Female",1.96678571428571
+"163","Guam","Male",29.5628571428571
+"164","Guam","Female",6.6025
+"165","Guatemala","Male",18.1064285714286
+"166","Guatemala","Female",3.22
+"167","Guinea","Male",13.6992857142857
+"168","Guinea","Female",6.52928571428571
+"169","Guinea-Bissau","Male",21.6646428571429
+"170","Guinea-Bissau","Female",7.73821428571429
+"171","Guyana","Male",40.8982142857143
+"172","Guyana","Female",11.2739285714286
+"173","Haiti","Male",14.0346428571429
+"174","Haiti","Female",5.31107142857143
+"175","High-middle SDI","Male",20.6814285714286
+"176","High-middle SDI","Female",8.06785714285714
+"177","High income","Male",19.4317857142857
+"178","High income","Female",6.06535714285714
+"179","High SDI","Male",19.2246428571429
+"180","High SDI","Female",6.10107142857143
+"181","Honduras","Male",8.33321428571429
+"182","Honduras","Female",1.88714285714286
+"183","Hungary","Male",37.4714285714286
+"184","Hungary","Female",9.64392857142857
+"185","Iceland","Male",17.5385714285714
+"186","Iceland","Female",4.96892857142857
+"187","India","Male",19.5907142857143
+"188","India","Female",16.6535714285714
+"189","Indonesia","Male",5.29535714285714
+"190","Indonesia","Female",1.97607142857143
+"191","Iran","Male",8.0825
+"192","Iran","Female",4.65357142857143
+"193","Iraq","Male",9.07857142857143
+"194","Iraq","Female",5.55535714285714
+"195","Ireland","Male",17.6457142857143
+"196","Ireland","Female",4.33892857142857
+"197","Israel","Male",12.3757142857143
+"198","Israel","Female",3.26107142857143
+"199","Italy","Male",9.67642857142857
+"200","Italy","Female",2.7425
+"201","Jamaica","Male",4.37607142857143
+"202","Jamaica","Female",0.851785714285714
+"203","Japan","Male",24.7575
+"204","Japan","Female",9.72
+"205","Jordan","Male",5.96857142857143
+"206","Jordan","Female",2.92107142857143
+"207","Kazakhstan","Male",52.1532142857143
+"208","Kazakhstan","Female",10.275
+"209","Kenya","Male",19.7685714285714
+"210","Kenya","Female",5.6425
+"211","Kiribati","Male",48.1596428571429
+"212","Kiribati","Female",7.50892857142857
+"213","Kuwait","Male",3.65964285714286
+"214","Kuwait","Female",1.6025
+"215","Kyrgyzstan","Male",25.6564285714286
+"216","Kyrgyzstan","Female",5.71
+"217","Laos","Male",19.0825
+"218","Laos","Female",6.92035714285714
+"219","Latin America & Caribbean","Male",12.185
+"220","Latin America & Caribbean","Female",2.97428571428571
+"221","Latvia","Male",46.0553571428571
+"222","Latvia","Female",8.30464285714286
+"223","Lebanon","Male",7.3375
+"224","Lebanon","Female",2.81928571428571
+"225","Lesotho","Male",40.2575
+"226","Lesotho","Female",19.2157142857143
+"227","Liberia","Male",14.9814285714286
+"228","Liberia","Female",10.1389285714286
+"229","Libya","Male",10.2975
+"230","Libya","Female",3.76178571428571
+"231","Lithuania","Male",64.84
+"232","Lithuania","Female",11.1371428571429
+"233","Low-middle SDI","Male",16.4571428571429
+"234","Low-middle SDI","Female",11.6578571428571
+"235","Low income","Male",18.1539285714286
+"236","Low income","Female",7.00214285714286
+"237","Low SDI","Male",14.5939285714286
+"238","Low SDI","Female",9.26821428571429
+"239","Lower-middle income","Male",15.5253571428571
+"240","Lower-middle income","Female",10.2053571428571
+"241","Luxembourg","Male",18.0667857142857
+"242","Luxembourg","Female",6.32392857142857
+"243","Macedonia","Male",11.295
+"244","Macedonia","Female",4.16642857142857
+"245","Madagascar","Male",19.05
+"246","Madagascar","Female",6.18964285714286
+"247","Malawi","Male",22.875
+"248","Malawi","Female",5.58571428571429
+"249","Malaysia","Male",12.2035714285714
+"250","Malaysia","Female",4.53642857142857
+"251","Maldives","Male",7.16607142857143
+"252","Maldives","Female",4.07142857142857
+"253","Mali","Male",10.1567857142857
+"254","Mali","Female",3.84607142857143
+"255","Malta","Male",7.98464285714286
+"256","Malta","Female",1.69892857142857
+"257","Marshall Islands","Male",35.4746428571429
+"258","Marshall Islands","Female",13.5785714285714
+"259","Mauritania","Male",10.8017857142857
+"260","Mauritania","Female",3.62357142857143
+"261","Mauritius","Male",16.0771428571429
+"262","Mauritius","Female",5.13392857142857
+"263","Mexico","Male",9.01964285714286
+"264","Mexico","Female",1.64142857142857
+"265","Middle East & North Africa","Male",7.22357142857143
+"266","Middle East & North Africa","Female",4.03142857142857
+"267","Middle SDI","Male",14.4835714285714
+"268","Middle SDI","Female",9.69607142857143
+"269","Moldova","Male",29.9617857142857
+"270","Moldova","Female",5.58928571428571
+"271","Mongolia","Male",30.8075
+"272","Mongolia","Female",7.30285714285714
+"273","Montenegro","Male",16.1532142857143
+"274","Montenegro","Female",5.75714285714286
+"275","Morocco","Male",6.83571428571429
+"276","Morocco","Female",9.81035714285714
+"277","Mozambique","Male",28.9910714285714
+"278","Mozambique","Female",6.38142857142857
+"279","Myanmar","Male",10.6710714285714
+"280","Myanmar","Female",2.82785714285714
+"281","Namibia","Male",30.1557142857143
+"282","Namibia","Female",5.19464285714286
+"283","Nepal","Male",11.4432142857143
+"284","Nepal","Female",7.4175
+"285","Netherlands","Male",13.3382142857143
+"286","Netherlands","Female",5.9375
+"287","New Zealand","Male",19.9582142857143
+"288","New Zealand","Female",5.87821428571429
+"289","Nicaragua","Male",12.8064285714286
+"290","Nicaragua","Female",3.73071428571429
+"291","Niger","Male",10.9517857142857
+"292","Niger","Female",4.83392857142857
+"293","Nigeria","Male",9.78892857142857
+"294","Nigeria","Female",6.75321428571429
+"295","North America","Male",18.9810714285714
+"296","North America","Female",5.08928571428571
+"297","North Korea","Male",17.3360714285714
+"298","North Korea","Female",8.60392857142857
+"299","Northern Mariana Islands","Male",18.9085714285714
+"300","Northern Mariana Islands","Female",3.64178571428571
+"301","Norway","Male",17.1367857142857
+"302","Norway","Female",6.32535714285714
+"303","Oman","Male",4.68714285714286
+"304","Oman","Female",1.46
+"305","Pakistan","Male",4.57428571428571
+"306","Pakistan","Female",5.50107142857143
+"307","Palestine","Male",7.07357142857143
+"308","Palestine","Female",2.0375
+"309","Panama","Male",10.2792857142857
+"310","Panama","Female",1.70107142857143
+"311","Papua New Guinea","Male",38.0846428571429
+"312","Papua New Guinea","Female",12.3282142857143
+"313","Paraguay","Male",7.8775
+"314","Paraguay","Female",2.94678571428571
+"315","Peru","Male",5.92035714285714
+"316","Peru","Female",2.33892857142857
+"317","Philippines","Male",9.74857142857143
+"318","Philippines","Female",3.37785714285714
+"319","Poland","Male",27.5228571428571
+"320","Poland","Female",4.32928571428571
+"321","Portugal","Male",16.8696428571429
+"322","Portugal","Female",4.34428571428571
+"323","Puerto Rico","Male",14.1889285714286
+"324","Puerto Rico","Female",1.68178571428571
+"325","Qatar","Male",7.63178571428571
+"326","Qatar","Female",2.01928571428571
+"327","Romania","Male",17.7310714285714
+"328","Romania","Female",3.445
+"329","Russia","Male",65.6785714285714
+"330","Russia","Female",11.3442857142857
+"331","Rwanda","Male",26.1203571428571
+"332","Rwanda","Female",10.3796428571429
+"333","Saint Lucia","Male",12.8253571428571
+"334","Saint Lucia","Female",1.87464285714286
+"335","Saint Vincent and the Grenadines","Male",12.0642857142857
+"336","Saint Vincent and the Grenadines","Female",1.82785714285714
+"337","Samoa","Male",18.1039285714286
+"338","Samoa","Female",5.85964285714286
+"339","Sao Tome and Principe","Male",4.50928571428571
+"340","Sao Tome and Principe","Female",1.97821428571429
+"341","Saudi Arabia","Male",3.97035714285714
+"342","Saudi Arabia","Female",0.876785714285714
+"343","Senegal","Male",20.7178571428571
+"344","Senegal","Female",5.345
+"345","Serbia","Male",26.6382142857143
+"346","Serbia","Female",8.65714285714286
+"347","Seychelles","Male",17.1321428571429
+"348","Seychelles","Female",2.65892857142857
+"349","Sierra Leone","Male",12.8689285714286
+"350","Sierra Leone","Female",6.12321428571429
+"351","Singapore","Male",14.4785714285714
+"352","Singapore","Female",7.37035714285714
+"353","Slovakia","Male",21.645
+"354","Slovakia","Female",3.76785714285714
+"355","Slovenia","Male",36.5707142857143
+"356","Slovenia","Female",8.95428571428571
+"357","Solomon Islands","Male",26.8378571428571
+"358","Solomon Islands","Female",10.4117857142857
+"359","Somalia","Male",16.0671428571429
+"360","Somalia","Female",6.35785714285714
+"361","South Africa","Male",27.8610714285714
+"362","South Africa","Female",9.2825
+"363","South Asia","Male",17.4978571428571
+"364","South Asia","Female",14.4375
+"365","South Korea","Male",29.49
+"366","South Korea","Female",12.23
+"367","South Sudan","Male",19.3432142857143
+"368","South Sudan","Female",5.14321428571429
+"369","Southern Sub-Saharan Africa","Male",30.4071428571429
+"370","Southern Sub-Saharan Africa","Female",9.87892857142857
+"371","Spain","Male",10.3535714285714
+"372","Spain","Female",2.99678571428571
+"373","Sri Lanka","Male",52.0103571428571
+"374","Sri Lanka","Female",11.4546428571429
+"375","Sub-Saharan Africa","Male",17.8092857142857
+"376","Sub-Saharan Africa","Female",6.86428571428571
+"377","Sudan","Male",7.93285714285714
+"378","Sudan","Female",3.36107142857143
+"379","Suriname","Male",38.6117857142857
+"380","Suriname","Female",12.6128571428571
+"381","Swaziland","Male",44.6771428571429
+"382","Swaziland","Female",8.57607142857143
+"383","Sweden","Male",19.0507142857143
+"384","Sweden","Female",7.80857142857143
+"385","Switzerland","Male",22.1939285714286
+"386","Switzerland","Female",8.09428571428571
+"387","Syria","Male",5.09071428571429
+"388","Syria","Female",1.27321428571429
+"389","Taiwan","Male",18.1446428571429
+"390","Taiwan","Female",9.19928571428571
+"391","Tajikistan","Male",7.80964285714286
+"392","Tajikistan","Female",2.84285714285714
+"393","Tanzania","Male",14.7957142857143
+"394","Tanzania","Female",4.68392857142857
+"395","Thailand","Male",20.0478571428571
+"396","Thailand","Female",6.77392857142857
+"397","Timor","Male",11.8435714285714
+"398","Timor","Female",5.97571428571429
+"399","Togo","Male",20.1425
+"400","Togo","Female",6.3725
+"401","Tonga","Male",7.30642857142857
+"402","Tonga","Female",4.36142857142857
+"403","Trinidad and Tobago","Male",20.1017857142857
+"404","Trinidad and Tobago","Female",4.67857142857143
+"405","Tunisia","Male",4.93607142857143
+"406","Tunisia","Female",1.92714285714286
+"407","Turkey","Male",5.34821428571429
+"408","Turkey","Female",1.69285714285714
+"409","Turkmenistan","Male",16.3546428571429
+"410","Turkmenistan","Female",4.40142857142857
+"411","Uganda","Male",15.6367857142857
+"412","Uganda","Female",14.4825
+"413","Ukraine","Male",46.2685714285714
+"414","Ukraine","Female",7.58642857142857
+"415","United Arab Emirates","Male",6.08821428571429
+"416","United Arab Emirates","Female",2.17392857142857
+"417","United Kingdom","Male",12.6242857142857
+"418","United Kingdom","Female",3.77321428571429
+"419","United States","Male",19.0207142857143
+"420","United States","Female",5.04
+"421","Upper-middle income","Male",17.2682142857143
+"422","Upper-middle income","Female",9.52464285714286
+"423","Uruguay","Male",25.9146428571429
+"424","Uruguay","Female",6.24321428571429
+"425","Uzbekistan","Male",15.3221428571429
+"426","Uzbekistan","Female",4.87392857142857
+"427","Vanuatu","Male",29.7703571428571
+"428","Vanuatu","Female",8.59892857142857
+"429","Venezuela","Male",15.76
+"430","Venezuela","Female",2.33714285714286
+"431","Vietnam","Male",11.5367857142857
+"432","Vietnam","Female",5.60535714285714
+"433","Western Europe","Male",16.3189285714286
+"434","Western Europe","Female",5.12071428571429
+"435","World","Male",17.1671428571429
+"436","World","Female",9.07178571428571
+"437","Yemen","Male",8.48785714285714
+"438","Yemen","Female",4.50571428571429
+"439","Zambia","Male",23.7860714285714
+"440","Zambia","Female",7.12
+"441","Zimbabwe","Male",43.085
+"442","Zimbabwe","Female",14.5582142857143
